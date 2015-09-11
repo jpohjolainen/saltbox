@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+export DEBIAN_FRONTEND=noninteractive
+
 add-apt-repository ppa:saltstack/salt
 
 apt-get -qq update
